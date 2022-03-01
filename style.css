@@ -97,3 +97,57 @@ a {
   font-size: 3.5rem;
   font-weight: bold;
 }
+
+/* Third Page*/
+.third-page {
+  position: relative;
+  padding: 0% 20%;
+}
+
+.product-text-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+}
+
+.phone-size {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pro-size {
+  text-align: right;
+}
+
+.max-size {
+  text-align: left;
+}
+
+.product-images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.large-phone {
+  position: relative;
+  transform: translateX(35%) scale(0.8);
+  z-index: 1;
+}
+
+.small-phone {
+  position: relative;
+  transform: translateX(-35%) scale(0.8);
+  z-index: 2;
+}
+.retina-line {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
